@@ -1,0 +1,70 @@
+Submit the Assignment with Input and Output. These Assignment to be submitted with respect to GNU C Compiler.
+Q1.You will be given 3 integers as input. The inputs may or may not be different from each other.
+You have to output 1 if all three inputs are different from each other, and 0 if any input is repeated more than once.
+Input
+-----
+Three integers on three lines.
+
+
+
+Output
+------
+1 if the three inputs are different from each other
+, 0 if some input is repeated more than once
+Q2. You are given two integers, say M and N.
+
+You must check whether M is an exact multiple of N, without using
+loops.
+You have to output 0 if M is not a multiple of N.
+You have to output M/N if M is a multiple of N.
+
+Input-----
+Two integers, say M and N.
+
+Output------
+You have to output 0 if M is not a multiple of N.
+You have to output M/N if M is a multiple of N.
+
+Q3. 
+A triple of numbers (a,b,c) is called a triangle triple if we can form a triangle of lengths a, b and c.
+
+In this question, you will be given three numbers. You have to output
+1 if the three numbers can form a triangle. Otherwise, you have
+to output 0.
+
+Input-----Three real numbers.
+
+Output------1 if the three numbers can form a triangle, 0 otherwise
+
+Q4. Write a C function to find the kth occurrence of an even integer in a sequence of non-negative integers, and then call your function from main. 
+
+Your function should be according to the following declaration:
+
+int find_even(int k);
+
+Input
+You are given the input in two lines:
+
+The first line contains a positive integer k. 
+In the second line, you will be given a sequence of numbers. 
+
+You have to find the kth occurrence of n in the sequence below. 
+
+The second line consists of a sequence of non-negative integers,
+terminated with a -1.  The -1 is not part of the sequence.
+
+Output
+If there are  k even numbers in the sequence, then output the  kth
+occurrence of even in the sequence. Otherwise, output a -1.
+
+
+Sample Input
+2
+1 1 3 2 3 4 -1
+
+Sample Output
+4
+
+Q5. Write a C program to check whether a given address is a valid IPv4 address or not.
+Q6. Write a C program for Roman numeral to integer and vice versa.
+Q7. Write a C program to generate PSTREE in linux where pstree is a Linux command that shows the running processes as a tree. It is used as a more visual alternative to the ps command. The root of the tree is either init or the process with the given pid. It can also be installed in other Unix systems.
